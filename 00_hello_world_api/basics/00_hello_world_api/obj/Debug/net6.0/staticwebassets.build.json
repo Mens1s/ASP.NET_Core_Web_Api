@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LvO8D4O+lFNMCa+aP7zbQnFtc3ls5/QKO338OborDrw=",
+  "Source": "00_hello_world_api",
+  "BasePath": "_content/00_hello_world_api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
