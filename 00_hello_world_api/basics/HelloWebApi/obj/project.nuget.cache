@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dj0uzbJbRH92Ft2/N0La9rD6Hjc3G9TFCiRIs6yXrdrCHQ+Jg5GDyj6QqSwzuIr9f4ZZxshTZDBksQMEmhNASw==",
+  "success": true,
+  "projectFilePath": "/Users/mens1s/Desktop/com.mens1s/Asp.Net Core Web API/00_hello_world_api/basics/HelloWebApi/HelloWebApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/mens1s/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/mens1s/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/mens1s/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/mens1s/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
