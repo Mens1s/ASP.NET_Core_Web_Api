@@ -10,7 +10,6 @@ public class HomeController : ControllerBase
     [HttpGet]
     public ResponseModel GetMessage()
     {
-        
         return new ResponseModel()
         {
             HttpStatus = 200,
