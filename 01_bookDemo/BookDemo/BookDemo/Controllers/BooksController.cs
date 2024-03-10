@@ -34,11 +34,13 @@ namespace BookDemo.Controllers
             return StatusCode(201, book);
         }
 
-        [HttpPut]
-        public IActionResult UpdateBookById(Book book)
+        [HttpPut("{id:int}")]
+        public IActionResult UpdateBookById([FromRoute(Name="id")] int id, Book book)
         {
+            if (!book.Id.Equals(id))
+                return BadRequest("Your given id and book object id not matched!");
             
-            var entity  = ApplicationContext.Books.SingleOrDefault(b => b.Id.Equals(book.Id));
+            var entity  = ApplicationContext.Books.SingleOrDefault(b => b.Id.Equals(id));
             
             if (entity is null)
                 return NotFound();
